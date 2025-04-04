@@ -2,9 +2,6 @@ body {
 	height: 100%;
 	margin: 10px;
 	width: 100%;
-    background-image: url('https://upload.wikimedia.org/wikipedia/commons/c/c1/Flag_of_Texas_%28proper_vertical_display%29.svg');
-    background-position: bottom;
-    background-size: cover;
 }
 
 header {
@@ -17,7 +14,7 @@ header {
 
 h1 {
     color: white; 
-    background-color: #FF746C;
+    background-color: rgba(3, 24, 95, 0.85);
 	font-size: 50px;
     text-align: center;
 }
