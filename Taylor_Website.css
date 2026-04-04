@@ -8,7 +8,7 @@ html, body {
 
 body {
   font-family: 'Tahoma', sans-serif;
-  background-image: url('https://ih1.redbubble.net/image.1302756091.3710/raf,750x1000,075,t,192033:321fc38aa7.jpg');
+  background-image: url('https://images.pexels.com/photos/56832/road-asphalt-space-sky-56832.jpeg?cs=srgb&dl=pexels-pixabay-56832.jpg&fm=jpg');
   background-position: bottom;
   background-size: cover;
   margin: 0;
@@ -17,7 +17,7 @@ body {
 .Maxwell-Schutze {
   text-align: center;
   font-weight: 100;
-  color: aliceblue;
+  color: #30ad2f;
 }
 
 .page-description {
@@ -116,5 +116,25 @@ nav a {
 }
 
 .modal:target {
+    display: flex;
+}
+
+.modalTEMPORARY26 {
+    position: fixed;
+    inset: 0;
+    background-image: url('https://w0.peakpx.com/wallpaper/509/486/HD-wallpaper-sun-cloudy-golden-hour-heart-love-ring-sea-silhouette-ski-sunset-thumbnail.jpg');
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.contentTEMPORARY26 {
+    position: relative;
+    background: white;
+    padding: 1em 2em;
+    border-radius: 4px;
+}
+
+.modalTEMPORARY26:target {
     display: flex;
 }
